@@ -1,0 +1,128 @@
+void setup() {
+  
+  int pin = 12;
+  int C = 262;
+  int D = 294;
+  int E = 330;
+  int F = 349;
+  int G = 392;
+  int A = 440;
+  int B = 494;
+  int beat1 = 500;
+  int beat2 = beat1 * 2;
+  int beat3 = beat1 * 3;
+  int beat6 = beat1 * 6;
+
+  //wow it really doesn't sound anything like what I intended great
+
+  //an-oth-er head-
+  
+  tone(pin, A);
+  delay(beat2);
+  noTone(pin);
+
+  tone(pin, G);
+  delay(beat2);
+  noTone(pin);
+
+  delay(beat1/4);
+
+  tone(pin, G);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, E);
+  delay(beat1);
+  noTone(pin);
+
+  //delay(beat1/2);
+
+  tone(pin, E);
+  delay(beat1);
+  noTone(pin);
+
+  //-hangs low-ly; child-
+
+  tone(pin, G);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, F);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, E);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, D);
+  delay(beat1);
+  noTone(pin);
+
+  delay(beat1/2);
+  
+  tone(pin, D);
+  delay(beat1);
+  noTone(pin);
+
+  delay(beat1/2);
+
+  tone(pin, D);
+  delay(beat1);
+  noTone(pin);
+
+  //-is slow-ly tak-en.
+
+  tone(pin, F);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, E);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, D);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, D);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, C);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, D);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, B);
+  delay(beat1);
+  noTone(pin);
+
+  //And the vi-'lence caused-
+
+  tone(pin, A);
+  delay(beat1);
+  noTone(pin);
+
+  delay(beat1/2);
+
+  tone(pin, A);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, G);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, G);
+  delay(beat1);
+  noTone(pin);
+  
+}
+
+void loop() {
+  
+}
