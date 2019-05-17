@@ -290,10 +290,186 @@ void setup() {
   noTone(pin);
 
   tone(pin, B);
+  delay(beat2);
+  noTone(pin);
+
+  delay(beat1/2);
+
+//with their tanks
+
+  tone(pin, C);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, B);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, A);
+  delay(beat1);
+  noTone(pin);
+
+  delay(beat1/5);
+
+//and their bombs
+
+  tone(pin, A);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, B);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, A);
+  delay(beat1);
+  noTone(pin);
+
+  delay(beat1/5);
+
+//and their bombs
+
+  tone(pin, A);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, B);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, A);
+  delay(beat1);
+  noTone(pin);
+
+  delay(beat1/5);
+
+//and their guns
+
+  tone(pin, A);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, B);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, A);
+  delay(beat1);
+  noTone(pin);
+
+  delay(beat1/5);
+
+//In you head
+
+  tone(pin, C);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, B);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, G);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, E);
+  delay(beat1);
+  noTone(pin);
+
+//in your head
+
+  tone(pin, C);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, B);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, G);
+  delay(beat1);
+  noTone(pin);
+
+//they are crying
+
+  tone(pin, C);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, C);
   delay(beat1);
   noTone(pin);
 
   tone(pin, D);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, B);
+  delay(beat2);
+  noTone(pin);
+
+  delay(beat1/2);
+
+//In your head
+
+  tone(pin, B);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, B);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, C);
+  delay(beat1);
+  noTone(pin);
+  
+  tone(pin, A);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, A);
+  delay(beat1);
+  noTone(pin);
+
+//in your head
+
+  tone(pin, B);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, D);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, C);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, D);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, C);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, A);
+  delay(beat1);
+  noTone(pin);
+
+//zombie
+
+  tone(pin, A);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, B);
+  delay(beat1);
+  noTone(pin);
+
+  tone(pin, G);
   delay(beat1);
   noTone(pin);
 }
@@ -301,8 +477,3 @@ void setup() {
 void loop() {
   
 }
-
-
-
-
-https://www.musicnotes.com/sheetmusic/mtd.asp?ppn=MN0150458
