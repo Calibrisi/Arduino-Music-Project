@@ -10,15 +10,15 @@ void setup() {
   int A = 440;
   int B = 494;
   int C5 = 523;
-  int beat1 = 450;
-  int beat2 = beat1 * 2;
-  int beat3 = beat1 * 3;
-  int beat6 = beat1 * 6;
+  int eighth = 450;
+  int beat2 = eighth * 2;
+  int beat3 = eighth * 3;
+  int beat6 = eighth * 6;
 
 //an-oth-er head-
   
   tone(pin, A);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, G);
@@ -26,163 +26,163 @@ void setup() {
   noTone(pin);
 
   tone(pin, G);
-  delay(beat1*.75);
+  delay(eighth*.75);
   noTone(pin);
 
   tone(pin, E);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
-  //delay(beat1/10);
+  //delay(eighth/10);
 
   tone(pin, E);
-  delay(beat1*1.5);
+  delay(eighth*1.5);
   noTone(pin);
 
 //-hangs low-ly; child-
 
   tone(pin, G);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, F);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, E);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, D);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
-  //delay(beat1/10);
+  //delay(eighth/10);
   
   tone(pin, D);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
-  delay(beat1/4);
+  delay(eighth/4);
 
   tone(pin, D);
-  delay(beat1*1.5);
+  delay(eighth*1.5);
   noTone(pin);
 
 //-is slow-ly tak-en.
 
   tone(pin, F);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, E);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, D);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, D);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, C);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, D);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, weirdB);
   delay(beat2);
   noTone(pin);
 
-  delay(beat1*1.5);
+  delay(eighth*1.5);
 
 //And the vi-'lence caused-
 
   tone(pin, A/2);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
   
   tone(pin, A);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, G);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, G);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, E);
-  delay(beat1*1.5);
+  delay(eighth*1.5);
   noTone(pin);
 
-  //delay(beat1/10);
+  //delay(eighth/10);
 
   tone(pin, E);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
-  //delay(beat1/5);
+  //delay(eighth/5);
   
 //-such si-lence, who--
 
   tone(pin, G);
-  delay(beat1*1.5);
+  delay(eighth*1.5);
   noTone(pin);
 
   tone(pin, F);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, E);
-  delay(beat1*1.5);
+  delay(eighth*1.5);
   noTone(pin);
 
-  //delay(beat1/10);
+  //delay(eighth/10);
 
   tone(pin, E);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, D);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, F);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
   
 //-are we mis-tak-en?
 
   tone(pin, F);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, E);
-  delay(beat1*1.5);
+  delay(eighth*1.5);
   noTone(pin);
 
   tone(pin, D);
-  delay(beat1*1.5);
+  delay(eighth*1.5);
   noTone(pin);
 
   tone(pin, C);
-  delay(beat1*1.5);
+  delay(eighth*1.5);
   noTone(pin);
 
   tone(pin, D);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, weirdB);
-  delay(beat1*1.5);
+  delay(eighth*1.5);
   noTone(pin);
 
   delay(beat2);
@@ -190,294 +190,290 @@ void setup() {
 //But you see
 
   tone(pin, B);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, B);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, A);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
 //it's not me
 
   tone(pin, A);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, B);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, A);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
 //it's not my
 
   tone(pin, A);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, B);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, C5);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
 //fam-i-ly
 
   tone(pin, A);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, B);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, C5);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
 //In your head,
 
   tone(pin, C);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, B);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, G);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, E);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
 //in your head
 
   tone(pin, C);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, B);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, G);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
 //they are fighting
 
   tone(pin, C);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, C);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, D);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, B);
   delay(beat2);
   noTone(pin);
 
-  delay(beat1/2);
+  delay(eighth/2);
 
 //with their tanks
 
   tone(pin, C);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, B);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, A);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
-  delay(beat1/5);
+  delay(eighth/5);
 
 //and their bombs
 
   tone(pin, A);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, B);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, A);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
-  delay(beat1/5);
+  delay(eighth/5);
 
 //and their bombs
 
   tone(pin, A);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, B);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, A);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
-  delay(beat1/5);
+  delay(eighth/5);
 
 //and their guns
 
   tone(pin, A);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, B);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, A);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
-  delay(beat1/5);
+  delay(eighth/5);
 
 //In you head
 
   tone(pin, C);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, B);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, G);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, E);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
 //in your head
 
   tone(pin, C);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, B);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, G);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
 //they are crying
 
   tone(pin, C);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, C);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, D);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, B);
   delay(beat2);
   noTone(pin);
 
-  delay(beat1/2);
+  delay(eighth/2);
 
 //In your head
 
   tone(pin, B);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, B);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, C);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
   
   tone(pin, A);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, A);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
 //in your head
 
   tone(pin, B);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, D);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, C);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
-  tone(pin, D);
-  delay(beat1);
+  tone(pin, D); 
+  delay(eighth);
   noTone(pin);
 
   tone(pin, C);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, A);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
 //zombie
 
   tone(pin, A);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, B);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 
   tone(pin, G);
-  delay(beat1);
+  delay(eighth);
   noTone(pin);
 }
 
 void loop() {
   
 }
-
-
-
-//https://www.musicnotes.com/sheetmusic/mtd.asp?ppn=MN0150458
