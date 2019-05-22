@@ -1,5 +1,7 @@
 void setup() {
   
+  //using 86 beats per minute as timing
+  //not finished
   int pin = 12;
   int weirdB = 247;
   int C = 262;
@@ -10,11 +12,10 @@ void setup() {
   int A = 440;
   int B = 494;
   int C5 = 523;
-  int eighth = 450;
-  int beat2 = eighth * 2;
-  int beat3 = eighth * 3;
-  int beat6 = eighth * 6;
-
+  int eighth = 349;
+  int quarter = eighth * 2;
+  int half = eighth * 4;
+  
 //an-oth-er head-
   
   tone(pin, A);
@@ -96,7 +97,7 @@ void setup() {
   noTone(pin);
 
   tone(pin, weirdB);
-  delay(beat2);
+  delay(half);
   noTone(pin);
 
   delay(eighth*1.5);
@@ -182,10 +183,10 @@ void setup() {
   noTone(pin);
 
   tone(pin, weirdB);
-  delay(eighth*1.5);
+  delay(half);
   noTone(pin);
 
-  delay(beat2);
+  delay(eighth);
 
 //But you see
 
@@ -200,6 +201,8 @@ void setup() {
   tone(pin, A);
   delay(eighth);
   noTone(pin);
+  
+  delay(eighth);
 
 //it's not me
 
@@ -214,6 +217,8 @@ void setup() {
   tone(pin, A);
   delay(eighth);
   noTone(pin);
+  
+  delay(eighth);
 
 //it's not my
 
@@ -228,6 +233,8 @@ void setup() {
   tone(pin, C5);
   delay(eighth);
   noTone(pin);
+  
+  delay(eighth);
 
 //fam-i-ly
 
