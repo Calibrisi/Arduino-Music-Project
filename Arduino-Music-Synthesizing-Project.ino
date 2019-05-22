@@ -477,3 +477,8 @@ void setup() {
 void loop() {
   
 }
+
+
+https://msu.edu/course/asc/232/song_project/dectalk_pages/note_to_%20ms.html
+
+https://www.musicnotes.com/sheetmusic/mtd.asp?ppn=MN0150458
