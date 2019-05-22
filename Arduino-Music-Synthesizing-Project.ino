@@ -559,11 +559,79 @@ void setup() {
   delay(eighth);
   noTone(pin);
   
+//head, zom-bie
+  
+  tone(pin, C);
+  delay(eighth);
+  noTone(pin);
+  
+  tone(pin, D);
+  delay(eighth);
+  noTone(pin);
+  
+  tone(pin, C);
+  delay(eighth);
+  noTone(pin);
+  
+  tone(pin, A);
+  delay(eighth);
+  noTone(pin);
+  
+  delay(eighth);
+  
+  tone(pin, A);
+  delay(eighth);
+  noTone(pin);
+  
+  tone(pin, E);
+  delay(eighth);
+  noTone(pin);
+  
+  tone(pin, G);
+  delay(eighth);
+  noTone(pin);
+  
+//zom-bie, zom-bie?
+  
+  delay(eight);
+  
+  tone(pin, A);
+  delay(eighth);
+  noTone(pin);
+  
+  tone(pin, B);
+  delay(eighth);
+  noTone(pin);
+  
+  tone(pin, G);
+  delay(eighth);
+  noTone(pin);
+  
+  delay(eighth);
+  
+  tone(pin, A);
+  delay(eighth);
+  noTone(pin);
+  
+  tone(pin, B);
+  delay(eighth);
+  noTone(pin);
+  
+  tone(pin, B);
+  delay(eighth);
+  noTone(pin);
+  
 }
 
 void loop() {
   
 }
+
+
+
+
+
+
 
 
 https://msu.edu/course/asc/232/song_project/dectalk_pages/note_to_%20ms.html
