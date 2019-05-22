@@ -12,6 +12,7 @@ void setup() {
   int A = 440;
   int B = 494;
   int C5 = 523;
+  int D5 = 587;
   int eighth = 349;
   int quarter = eighth * 2;
   int half = eighth * 4;
@@ -242,7 +243,7 @@ void setup() {
   delay(eighth);
   noTone(pin);
 
-  tone(pin, C);
+  tone(pin, C5);
   delay(eighth);
   noTone(pin);
 
@@ -260,7 +261,7 @@ void setup() {
   delay(eighth);
   noTone(pin);
   
-  tone(pin, C);
+  tone(pin, C5);
   delay(eighth);
   noTone(pin);
 
@@ -274,15 +275,15 @@ void setup() {
   
   delay(eighth);
 
-  tone(pin, C);
+  tone(pin, C5);
   delay(eighth);
   noTone(pin);
 
-  tone(pin, C);
+  tone(pin, C5);
   delay(eighth);
   noTone(pin);
 
-  tone(pin, D);
+  tone(pin, D5);
   delay(eighth);
   noTone(pin);
 
@@ -292,13 +293,13 @@ void setup() {
   delay(quarter);
   noTone(pin);
   
-  tone(pin, D);
+  tone(pin, D5);
   delay(eighth);
   noTone(pin);
   
   delay(eighth);
   
-  tone(pin, C);
+  tone(pin, C5);
   delay(eighth);
   noTone(pin);
 
@@ -358,7 +359,7 @@ void setup() {
 
   delay(eighth);
 
-  tone(pin, C);
+  tone(pin, C5);
   delay(eighth);
   noTone(pin);
 
@@ -375,7 +376,7 @@ void setup() {
   delay(eighth);
   noTone(pin);
   
-  tone(pin, C);
+  tone(pin, C5);
   delay(eighth);
   noTone(pin);
 
@@ -389,15 +390,15 @@ void setup() {
   
   delay(eighth);
   
-  tone(pin, C);
+  tone(pin, C5);
   delay(eighth);
   noTone(pin);
 
-  tone(pin, C);
+  tone(pin, C5);
   delay(eighth);
   noTone(pin);
 
-  tone(pin, D);
+  tone(pin, D5);
   delay(eighth);
   noTone(pin);
   
@@ -407,11 +408,11 @@ void setup() {
   delay(quarter);
   noTone(pin);
   
-  tone(pin, D);
+  tone(pin, D5);
   delay(eighth);
   noTone(pin);
   
-  delay(eighth * 3);
+  delay(quarter);
   
   tone(pin, B);
   delay(eighth);
@@ -423,7 +424,7 @@ void setup() {
   
 //head, in your
 
-  tone(pin, C);
+  tone(pin, C5);
   delay(quarter);
   noTone(pin);
   
@@ -439,21 +440,21 @@ void setup() {
   delay(eighth);
   noTone(pin);
 
-  tone(pin, D);
+  tone(pin, D5);
   delay(eighth);
   noTone(pin);
   
 //head,zom-bie
 
-  tone(pin, C);
+  tone(pin, C5);
   delay(eighth);
   noTone(pin);
 
-  tone(pin, D); 
+  tone(pin, D5); 
   delay(eighth);
   noTone(pin);
 
-  tone(pin, C);
+  tone(pin, C5);
   delay(eighth);
   noTone(pin);
 
@@ -513,7 +514,7 @@ void setup() {
   delay(eighth);
   noTone(pin);
   
-  tone(pin, D);
+  tone(pin, D5);
   delay(eighth);
   noTone(pin);
   
@@ -521,7 +522,7 @@ void setup() {
   delay(eighth);
   noTone(pin);
   
-  tone(pin, D);
+  tone(pin, D5);
   delay(eighth);
   noTone(pin);
   
@@ -539,7 +540,7 @@ void setup() {
   
 //head,in your
   
-  tone(pin, C);
+  tone(pin, C5);
   delay(quarter);
   noTone(pin);
   
@@ -555,21 +556,21 @@ void setup() {
   delay(eighth);
   noTone(pin);
   
-  tone(pin, D);
+  tone(pin, D5);
   delay(eighth);
   noTone(pin);
   
 //head, zom-bie
   
-  tone(pin, C);
+  tone(pin, C5);
   delay(eighth);
   noTone(pin);
   
-  tone(pin, D);
+  tone(pin, D5);
   delay(eighth);
   noTone(pin);
   
-  tone(pin, C);
+  tone(pin, C5);
   delay(eighth);
   noTone(pin);
   
@@ -593,7 +594,7 @@ void setup() {
   
 //zom-bie, zom-bie?
   
-  delay(eight);
+  delay(eighth);
   
   tone(pin, A);
   delay(eighth);
@@ -620,20 +621,247 @@ void setup() {
   tone(pin, B);
   delay(eighth);
   noTone(pin);
+
+//hey- hey- hey- oh-
+
+  delay(eighth);
+
+  tone(pin, B);
+  delay(eighth);
+  noTone(pin);
+
+  tone(pin, D5);
+  delay(eighth);
+  noTone(pin);
+
+  tone(pin, B);
+  delay(eighth);
+  noTone(pin);
+
+  tone(pin, D5);
+  delay(eighth);
+  noTone(pin);
+
+  tone(pin, B);
+  delay(eighth);
+  noTone(pin);
+
+  tone(pin, D5);
+  delay(eighth);
+  noTone(pin);
+
+  tone(pin, A);
+  delay(eighth);
+  noTone(pin);
+
+//doo, doo, doo, doo
+
+  tone(pin, C5);
+  delay(eighth);
+  noTone(pin);
+
+  tone(pin, C5);
+  delay(eighth);
+  noTone(pin);
+
+  delay(eighth);
+
+  tone(pin, B);
+  delay(eighth);
+  noTone(pin);
+
+  delay(eighth);
+
+  tone(pin, E);
+  delay(quarter);
+  noTone(pin);
+
+  tone(pin, F);
+  delay(eighth);
+  noTone(pin);
+
+//doo, doo, doo ,doo
+
+  delay(eighth);
+
+  tone(pin, C5);
+  delay(eighth);
+  noTone(pin);
+
+  delay(eighth);
+  
+  tone(pin, B);
+  delay(eighth);
+  noTone(pin);
+
+  delay(eighth);
+
+  tone(pin, F);
+  delay(eighth);
+  noTone(pin);
+
+  tone(pin, E);
+  delay(eighth);
+  noTone(pin);
+
+//doo, doo, doo, doo
+
+  delay(eighth);
+
+  tone(pin, C5);
+  delay(eighth);
+  noTone(pin);
+
+  delay(eighth);
+
+  tone(pin, B);
+  delay(eighth);
+  noTone(pin);
+
+  delay(eighth);
+
+  tone(pin, E);
+  delay(quarter);
+  noTone(pin);
+
+  tone(pin, D5);
+  delay(eighth);
+  noTone(pin);
+
+//doo, doo, doo,doo
+
+  delay(eighth);
+
+  tone(pin, C5);
+  delay(eighth);
+  noTone(pin);
+
+  delay(eighth);
+
+  tone(pin, B);
+  delay(eighth);
+  noTone(pin);
+
+  delay(eighth);
+
+  tone(pin, D5);
+  delay(quarter);
+  noTone(pin);
+
+  tone(pin, E);
+  delay(eighth);
+  noTone(pin);
+
+//-----
+
+  tone(pin, E);
+  delay(half);
+  noTone(pin);
+
+  delay(half);
+
+//-----
+
+  tone(pin, C5);
+  delay(eighth);
+  noTone(pin);
+
+  tone(pin, A);
+  delay(eighth);
+  noTone(pin);
+
+  tone(pin, C5);
+  delay(eighth);
+  noTone(pin);
+
+  tone(pin, A);
+  delay(eighth);
+  noTone(pin);
+
+  tone(pin, C5);
+  delay(eighth);
+  noTone(pin);
+
+  tone(pin, A);
+  delay(eighth);
+  noTone(pin);
+
+  tone(pin, C5);
+  delay(eighth);
+  noTone(pin);
+
+  tone(pin, A);
+  delay(eighth);
+  noTone(pin);
+
+//-----
+
+  tone(pin, C5);
+  delay(eighth);
+  noTone(pin);
+
+  tone(pin, A);
+  delay(eighth);
+  noTone(pin);
+
+  tone(pin, C5);
+  delay(eighth);
+  noTone(pin);
+
+  tone(pin, A);
+  delay(eighth);
+  noTone(pin);
+
+  tone(pin, C5);
+  delay(eighth);
+  noTone(pin);
+
+  tone(pin, A);
+  delay(eighth);
+  noTone(pin);
+
+  tone(pin, B);
+  delay(eighth);
+  noTone(pin);
+
+  tone(pin, G);
+  delay(eighth);
+  noTone(pin);
+
+//-----
+
+  tone(pin, G);
+  delay(half);
+  noTone(pin);
+
+  tone(pin, E);
+  delay(eighth);
+  noTone(pin);
+
+  tone(pin, E);
+  delay(eighth);
+  noTone(pin);
+
+//-----
+
+  tone(pin, D5);
+  delay(half);
+  noTone(pin);
+
+  tone(pin, D5);
+  delay(eighth);
+  noTone(pin);
+
+  tone(pin, E);
+  delay(eighth);
+  noTone(pin);
+
+  delay(quarter);
+
+  delay(half);
   
 }
 
 void loop() {
   
 }
-
-
-
-
-
-
-
-
-https://msu.edu/course/asc/232/song_project/dectalk_pages/note_to_%20ms.html
-
-https://www.musicnotes.com/sheetmusic/mtd.asp?ppn=MN0150458
