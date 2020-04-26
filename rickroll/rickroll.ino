@@ -24,6 +24,10 @@ Notes chart:
   int G = 392;
   int A = 440;
   int B = 494;
+  int eighth = 450;
+  int beat2 = eighth * 2;
+  int beat3 = eighth * 3;
+  int beat6 = eighth * 6;
 
 void setup() {
   // put your setup code here, to run once:
@@ -34,7 +38,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   
-  if(digitalRead(3) == LOW)
+  if(digitalRead(3) == LOW) //When button is pressed, plays following notes
    {
 
 
