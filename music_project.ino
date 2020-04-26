@@ -17,6 +17,13 @@ Notes chart:
 8 4186  4435  4699  4978  5274  5588  5920  6272  6645  7040  7459  7902
 */
 
+  int C = 262;
+  int D = 294;
+  int E = 330;
+  int F = 370; //is actually F#
+  int G = 392;
+  int A = 440;
+  int B = 494;
 
 void setup() {
   // put your setup code here, to run once:
@@ -33,527 +40,527 @@ void loop() {
 
     //"We're no strangers to love, You know the rules and so do I"
     //E4
-    tone(12, 330);    // tone(outputPin,frequency)
+    tone(12, E);    // tone(outputPin,frequency)
     delay(900);       // delay(milliseconds) 
     noTone(12);
     delay(100);
 
-    tone(12, 370); //F#4
+    tone(12, F); //F#4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 392); //G4
+    tone(12, G); //G4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 392); //G4
+    tone(12, G); //G4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 440); //A4
+    tone(12, A); //A4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 370); //F#4
+    tone(12, F); //F#4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 294); //D4
+    tone(12, D); //D4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 330); //E4
+    tone(12, E); //E4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 330); //E4
+    tone(12, E); //E4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 370); //F#4
+    tone(12, F); //F#4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 392); //G4
+    tone(12, G); //G4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 330); //E4
+    tone(12, E); //E4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 294); //D4
+    tone(12, D); //D4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 294); //D4
+    tone(12, D); //D4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 294); //D4
+    tone(12, D); //D4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 440); //A4
+    tone(12, A); //A4
     delay(500);
     noTone(12);
     delay(100);
 
     //next line: "A full commitment's what I'm thinking of, You wouldn't get this from any other guy"
 
-    tone(12, 330); //E4
+    tone(12, E); //E4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 330); //E4
+    tone(12, E); //E4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 370); //F#4
+    tone(12, F); //F#4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 392); //G4
+    tone(12, G); //G4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 330); //E4
+    tone(12, E); //E4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 392); //G4
+    tone(12, G); //G4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 440); //A4
+    tone(12, A); //A4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 370); //F#4
+    tone(12, F); //F#4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 330); //E4
+    tone(12, E); //E4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 370); //F#4
+    tone(12, F); //F#4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 330); //E4
+    tone(12, E); //E4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 330); //E4
+    tone(12, E); //E4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 370); //F#4
+    tone(12, F); //F#4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 392); //G4
+    tone(12, G); //G4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 330); //E4
+    tone(12, E); //E4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 294); //D4
+    tone(12, D); //D4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 440); //A4
+    tone(12, A); //A4
     delay(100);
     noTone(12);
     delay(100);
 
-    tone(12, 440); //A4
+    tone(12, A); //A4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 440); //A4
+    tone(12, A); //A4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 494); //B4
+    tone(12, B); //B4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 440); //A4
+    tone(12, A); //A4
     delay(500);
     noTone(12);
     delay(100);
 
     //next line: "I just wanna tell you how I'm feeling, Gotta make you understand"
 
-    tone(12, 392); //G4
+    tone(12, G); //G4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 440); //A4
+    tone(12, A); //A4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 494); //B4
+    tone(12, B); //B4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 392); //G4
+    tone(12, G); //G4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 440); //A4
+    tone(12, A); //A4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 440); //A4
+    tone(12, A); //A4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 440); //A4
+    tone(12, A); //A4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 494); //B4
+    tone(12, B); //B4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 440); //A4
+    tone(12, A); //A4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 294); //D4
+    tone(12, D); //D4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 330); //E4
+    tone(12, E); //E4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 370); //F#4
+    tone(12, F); //F#4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 392); //G4
+    tone(12, G); //G4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 330); //E4
+    tone(12, E); //E4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 440); //A4
+    tone(12, A); //A4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 494); //B4
+    tone(12, B); //B4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 440); //A4
+    tone(12, A); //A4
     delay(500);
     noTone(12);
     delay(100);
 
     //next line: "Never gonna give you up, Never gonna let you down"
 
-    tone(12, 294); //D4
+    tone(12, D); //D4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 330); //E4
+    tone(12, E); //E4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 392); //G4
+    tone(12, G); //G4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 330); //E4
+    tone(12, E); //E4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 494); //B4
+    tone(12, B); //B4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 494); //B4
+    tone(12, B); //B4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 440); //A4
+    tone(12, A); //A4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 294); //D4
+    tone(12, D); //D4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 330); //E4
+    tone(12, E); //E4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 370); //F#4
+    tone(12, F); //F#4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 294); //D4
+    tone(12, D); //D4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 440); //A4
+    tone(12, A); //A4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 440); //A4
+    tone(12, A); //A4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 392); //G4
+    tone(12, G); //G4
     delay(500);
     noTone(12);
     delay(100);
 
     //next line: "Never gonna run around and desert you, Never gonna make you cry"
 
-    tone(12, 294); //D4
+    tone(12, D); //D4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 330); //E4
+    tone(12, E); //E4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 392); //G4
+    tone(12, G); //G4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 330); //E4
+    tone(12, E); //E4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 392); //G4
+    tone(12, G); //G4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 440); //A4
+    tone(12, A); //A4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 370); //F#4
+    tone(12, F); //F#4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 294); //D4
+    tone(12, D); //D4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 294); //D4
+    tone(12, D); //D4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 440); //A4
+    tone(12, A); //A4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 392); //G4
+    tone(12, G); //G4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 294); //D4
+    tone(12, D); //D4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 330); //E4
+    tone(12, E); //E4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 392); //G4
+    tone(12, G); //G4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 330); //E4
+    tone(12, E); //E4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 494); //B4
+    tone(12, B); //B4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 494); //B4
+    tone(12, B); //B4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 440); //A4
+    tone(12, A); //A4
     delay(500);
     noTone(12);
     delay(100);
 
     //next line: "Never gonna say goodbye, Never gonna tell a lie and hurt you"
 
-    tone(12, 294); //D4
+    tone(12, D); //D4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 330); //E4
+    tone(12, E); //E4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 370); //F#4
+    tone(12, F); //F#4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 294); //D4
+    tone(12, D); //D4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 294); //D4
+    tone(12, D); //D4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 370); //F#4
+    tone(12, F); //F#4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 392); //G4
+    tone(12, G); //G4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 294); //D4
+    tone(12, D); //D4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 330); //E4
+    tone(12, E); //E4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 392); //G4
+    tone(12, G); //G4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 330); //E4
+    tone(12, E); //E4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 392); //G4
+    tone(12, G); //G4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 440); //A4
+    tone(12, A); //A4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 370); //F#4
+    tone(12, F); //F#4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 294); //D4
+    tone(12, D); //D4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 440); //A4
+    tone(12, A); //A4
     delay(500);
     noTone(12);
     delay(100);
 
-    tone(12, 392); //G4
+    tone(12, G); //G4
     delay(500);
     noTone(12);
     delay(100);
