@@ -39,7 +39,7 @@ void setup() {
 }
 
 void playnote(int pin, int note, int duration){
-  tone(pin, note);
+  tone(pin, note); //simulates playing a note for a duration, and then turns the speaker off. Function was added to improve readability of the code.
   delay(duration);
   noTone(pin);
 }
