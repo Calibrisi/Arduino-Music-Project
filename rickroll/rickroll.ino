@@ -25,9 +25,9 @@ Notes chart:
   int A = 440;
   int B = 494;
   int eighth = 450;
-  int beat2 = eighth * 2;
-  int beat3 = eighth * 3;
-  int beat6 = eighth * 6;
+  int quarter = eighth * 2;
+  int half = quarter * 2;
+  int whole = half * 2;
 
 void setup() {
   // put your setup code here, to run once:
@@ -45,32 +45,32 @@ void loop() {
     //"We're no strangers to love, You know the rules and so do I"
     //E4
     tone(12, E);    // tone(outputPin,frequency)
-    delay(900);       // delay(milliseconds) 
+    delay(quarter);       // delay(milliseconds) 
     noTone(12);
     delay(100);
 
     tone(12, F); //F#4
-    delay(500);
+    delay(quarter);
     noTone(12);
     delay(100);
 
     tone(12, G); //G4
-    delay(500);
+    delay(quarter);
     noTone(12);
     delay(100);
 
     tone(12, G); //G4
-    delay(500);
+    delay(quarter);
     noTone(12);
     delay(100);
 
     tone(12, A); //A4
-    delay(500);
+    delay(quarter);
     noTone(12);
     delay(100);
 
     tone(12, F); //F#4
-    delay(500);
+    delay(quarter);
     noTone(12);
     delay(100);
 
