@@ -42,7 +42,6 @@ void playnote(int pin, int note, int duration){
   tone(pin, note);
   delay(duration);
   noTone(pin);
-  
 }
 
 void loop() {
@@ -54,451 +53,164 @@ void loop() {
   
   //an-oth-er head-
   
-  tone(speakerpin, A);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, G);
-  delay(beat2);
-  noTone(speakerpin);
-
-  tone(speakerpin, G);
-  delay(eighth*.75);
-  noTone(speakerpin);
-
-  tone(speakerpin, E);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, E);
-  delay(eighth*1.5);
-  noTone(speakerpin);
-
+  playnote(speakerpin, A, eighth);
+  playnote(speakerpin, G, beat2);
+  playnote(speakerpin, G, eighth*.75);
+  playnote(speakerpin, E, eighth);
+  playnote(speakerpin, E, eighth*1.5);
   //-hangs low-ly; child-
 
-  tone(speakerpin, G);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, F);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, E);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, D);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, D);
-  delay(eighth);
-  noTone(speakerpin);
-
+  playnote(speakerpin, G, eighth);
+  playnote(speakerpin, F, eighth);
+  playnote(speakerpin, E, eighth);
+  playnote(speakerpin, D, eighth);
+  playnote(speakerpin, D, eighth);
   delay(eighth/4);
 
-  tone(speakerpin, D);
-  delay(eighth*1.5);
-  noTone(speakerpin);
-
+  playnote(speakerpin, D, eighth*1.5);
   //-is slow-ly tak-en.
 
-  tone(speakerpin, F);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, E);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, D);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, D);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, C);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, D);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, B3);
-  delay(beat2);
-  noTone(speakerpin);
-
+  playnote(speakerpin, F, eighth);
+  playnote(speakerpin, E, eighth);
+  playnote(speakerpin, D, eighth);
+  playnote(speakerpin, D, eighth);
+  playnote(speakerpin, C, eighth);
+  playnote(speakerpin, D, eighth);
+  playnote(speakerpin, B3, beat2);
   delay(eighth*1.5);
 
   //And the vi-'lence caused-
 
-  tone(speakerpin, A/2);
-  delay(eighth);
-  noTone(speakerpin);
-  
-  tone(speakerpin, A);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, G);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, G);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, E);
-  delay(eighth*1.5);
-  noTone(speakerpin);
-
-  tone(speakerpin, E);
-  delay(eighth);
-  noTone(speakerpin);
-  
+  playnote(speakerpin, A/2, eighth);
+  playnote(speakerpin, A, eighth);
+  playnote(speakerpin, G, eighth);
+  playnote(speakerpin, G, eighth);
+  playnote(speakerpin, E, eighth*1.5);
+  playnote(speakerpin, E, eighth);  
   //-such si-lence, who--
 
-  tone(speakerpin, G);
-  delay(eighth*1.5);
-  noTone(speakerpin);
-
-  tone(speakerpin, F);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, E);
-  delay(eighth*1.5);
-  noTone(speakerpin);
-
-  tone(speakerpin, E);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, D);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, F);
-  delay(eighth);
-  noTone(speakerpin);
-  
+  playnote(speakerpin, G, eighth*1.5);
+  playnote(speakerpin, F, eighth);
+  playnote(speakerpin, E, eighth*1.5);
+  playnote(speakerpin, E, eighth);
+  playnote(speakerpin, D, eighth);
+  playnote(speakerpin, F, eighth);  
   //-are we mis-tak-en?
 
-  tone(speakerpin, F);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, E);
-  delay(eighth*1.5);
-  noTone(speakerpin);
-
-  tone(speakerpin, D);
-  delay(eighth*1.5);
-  noTone(speakerpin);
-
-  tone(speakerpin, C);
-  delay(eighth*1.5);
-  noTone(speakerpin);
-
-  tone(speakerpin, D);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, B3);
-  delay(eighth*1.5);
-  noTone(speakerpin);
-
+  playnote(speakerpin, F, eighth);
+  playnote(speakerpin, E, eighth*1.5);
+  playnote(speakerpin, D, eighth*1.5);
+  playnote(speakerpin, C, eighth*1.5);
+  playnote(speakerpin, D, eighth);
+  playnote(speakerpin, B3, eighth*1.5);
   delay(beat2);
 
   //But you see
 
-  tone(speakerpin, B);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, B);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, A);
-  delay(eighth);
-  noTone(speakerpin);
-
+  playnote(speakerpin, B, eighth);
+  playnote(speakerpin, B, eighth);
+  playnote(speakerpin, A, eighth);
   //it's not me
 
-  tone(speakerpin, A);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, B);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, A);
-  delay(eighth);
-  noTone(speakerpin);
-
+  playnote(speakerpin, A, eighth);
+  playnote(speakerpin, B, eighth);
+  playnote(speakerpin, A, eighth);
   //it's not my
 
-  tone(speakerpin, A);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, B);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, C5);
-  delay(eighth);
-  noTone(speakerpin);
-
+  playnote(speakerpin, A, eighth);
+  playnote(speakerpin, B, eighth);
+  playnote(speakerpin, C5, eighth);
   //fam-i-ly
 
-  tone(speakerpin, A);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, B);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, C5);
-  delay(eighth);
-  noTone(speakerpin);
-
+  playnote(speakerpin, A, eighth);
+  playnote(speakerpin, B, eighth);
+  playnote(speakerpin, C5, eighth);
   //In your head,
 
-  tone(speakerpin, C);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, B);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, G);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, E);
-  delay(eighth);
-  noTone(speakerpin);
-
+  playnote(speakerpin, C, eighth);
+  playnote(speakerpin, B, eighth);
+  playnote(speakerpin, G, eighth);
+  playnote(speakerpin, E, eighth);
   //in your head
 
-  tone(speakerpin, C);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, B);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, G);
-  delay(eighth);
-  noTone(speakerpin);
-
+  playnote(speakerpin, C, eighth);
+  playnote(speakerpin, B, eighth);
+  playnote(speakerpin, G, eighth);
   //they are fighting
 
-  tone(speakerpin, C);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, C);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, D);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, B);
-  delay(beat2);
-  noTone(speakerpin);
-
+  playnote(speakerpin, C, eighth);
+  playnote(speakerpin, C, eighth);
+  playnote(speakerpin, D, eighth);
+  playnote(speakerpin, B, beat2);
   delay(eighth/2);
 
   //with their tanks
 
-  tone(speakerpin, C);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, B);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, A);
-  delay(eighth);
-  noTone(speakerpin);
-
+  playnote(speakerpin, C, eighth);
+  playnote(speakerpin, B, eighth);
+  playnote(speakerpin, A, eighth);
   delay(eighth/5);
 
   //and their bombs
 
-  tone(speakerpin, A);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, B);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, A);
-  delay(eighth);
-  noTone(speakerpin);
-
+  playnote(speakerpin, A, eighth);
+  playnote(speakerpin, B, eighth);
+  playnote(speakerpin, A, eighth);
   delay(eighth/5);
 
   //and their bombs
 
-  tone(speakerpin, A);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, B);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, A);
-  delay(eighth);
-  noTone(speakerpin);
-
+  playnote(speakerpin, A, eighth);
+  playnote(speakerpin, B, eighth);
+  playnote(speakerpin, A, eighth);
   delay(eighth/5);
 
   //and their guns
 
-  tone(speakerpin, A);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, B);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, A);
-  delay(eighth);
-  noTone(speakerpin);
-
+  playnote(speakerpin, A, eighth);
+  playnote(speakerpin, B, eighth);
+  playnote(speakerpin, A, eighth);
   delay(eighth/5);
 
   //In you head
 
-  tone(speakerpin, C);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, B);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, G);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, E);
-  delay(eighth);
-  noTone(speakerpin);
-
+  playnote(speakerpin, C, eighth);
+  playnote(speakerpin, B, eighth);
+  playnote(speakerpin, G, eighth);
+  playnote(speakerpin, E, eighth);
   //in your head
 
-  tone(speakerpin, C);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, B);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, G);
-  delay(eighth);
-  noTone(speakerpin);
-
+  playnote(speakerpin, C, eighth);
+  playnote(speakerpin, B, eighth);
+  playnote(speakerpin, G, eighth);
   //they are crying
 
-  tone(speakerpin, C);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, C);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, D);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, B);
-  delay(beat2);
-  noTone(speakerpin);
-
+  playnote(speakerpin, C, eighth);
+  playnote(speakerpin, C, eighth);
+  playnote(speakerpin, D, eighth);
+  playnote(speakerpin, B, beat2);
   delay(eighth/2);
 
   //In your head
 
-  tone(speakerpin, B);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, B);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, C);
-  delay(eighth);
-  noTone(speakerpin);
-  
-  tone(speakerpin, A);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, A);
-  delay(eighth);
-  noTone(speakerpin);
-
+  playnote(speakerpin, B, eighth);
+  playnote(speakerpin, B, eighth);
+  playnote(speakerpin, C, eighth);  
+  playnote(speakerpin, A, eighth);
+  playnote(speakerpin, A, eighth);
   //in your head
 
-  tone(speakerpin, B);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, D);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, C);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, D); 
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, C);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, A);
-  delay(eighth);
-  noTone(speakerpin);
-
+  playnote(speakerpin, B, eighth);
+  playnote(speakerpin, D, eighth);
+  playnote(speakerpin, C, eighth);
+  playnote(speakerpin, D, eighth);
+  playnote(speakerpin, C, eighth);
+  playnote(speakerpin, A, eighth);
   //zombie
 
-  tone(speakerpin, A);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, B);
-  delay(eighth);
-  noTone(speakerpin);
-
-  tone(speakerpin, G);
-  delay(eighth);
-  noTone(speakerpin);
+  playnote(speakerpin, A, eighth);
+  playnote(speakerpin, B, eighth);
+  playnote(speakerpin, G, eighth);
 }
 
 
