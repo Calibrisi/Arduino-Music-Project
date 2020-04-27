@@ -1,484 +1,488 @@
+int speakerpin = 12;
+int buttonpin = 3;
+
+int weirdB = 247;
+int C = 262;
+int D = 294;
+int E = 330;
+int F = 349;
+int G = 392;
+int A = 440;
+int B = 494;
+int C5 = 523;
+int eighth = 450;
+int beat2 = eighth * 2;
+int beat3 = eighth * 3;
+int beat6 = eighth * 6;
+
+
 void setup() {
   
-  int pin = 12;
-  int weirdB = 247;
-  int C = 262;
-  int D = 294;
-  int E = 330;
-  int F = 349;
-  int G = 392;
-  int A = 440;
-  int B = 494;
-  int C5 = 523;
-  int eighth = 450;
-  int beat2 = eighth * 2;
-  int beat3 = eighth * 3;
-  int beat6 = eighth * 6;
+}
+
+void loop() {
+   
 
 //an-oth-er head-
   
-  tone(pin, A);
+  tone(speakerpin, A);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, G);
+  tone(speakerpin, G);
   delay(beat2);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, G);
+  tone(speakerpin, G);
   delay(eighth*.75);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, E);
+  tone(speakerpin, E);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
   //delay(eighth/10);
 
-  tone(pin, E);
+  tone(speakerpin, E);
   delay(eighth*1.5);
-  noTone(pin);
+  noTone(speakerpin);
 
 //-hangs low-ly; child-
 
-  tone(pin, G);
+  tone(speakerpin, G);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, F);
+  tone(speakerpin, F);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, E);
+  tone(speakerpin, E);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, D);
+  tone(speakerpin, D);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
   //delay(eighth/10);
   
-  tone(pin, D);
+  tone(speakerpin, D);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
   delay(eighth/4);
 
-  tone(pin, D);
+  tone(speakerpin, D);
   delay(eighth*1.5);
-  noTone(pin);
+  noTone(speakerpin);
 
 //-is slow-ly tak-en.
 
-  tone(pin, F);
+  tone(speakerpin, F);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, E);
+  tone(speakerpin, E);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, D);
+  tone(speakerpin, D);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, D);
+  tone(speakerpin, D);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, C);
+  tone(speakerpin, C);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, D);
+  tone(speakerpin, D);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, weirdB);
+  tone(speakerpin, weirdB);
   delay(beat2);
-  noTone(pin);
+  noTone(speakerpin);
 
   delay(eighth*1.5);
 
 //And the vi-'lence caused-
 
-  tone(pin, A/2);
+  tone(speakerpin, A/2);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
   
-  tone(pin, A);
+  tone(speakerpin, A);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, G);
+  tone(speakerpin, G);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, G);
+  tone(speakerpin, G);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, E);
+  tone(speakerpin, E);
   delay(eighth*1.5);
-  noTone(pin);
+  noTone(speakerpin);
 
   //delay(eighth/10);
 
-  tone(pin, E);
+  tone(speakerpin, E);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
   //delay(eighth/5);
   
 //-such si-lence, who--
 
-  tone(pin, G);
+  tone(speakerpin, G);
   delay(eighth*1.5);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, F);
+  tone(speakerpin, F);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, E);
+  tone(speakerpin, E);
   delay(eighth*1.5);
-  noTone(pin);
+  noTone(speakerpin);
 
   //delay(eighth/10);
 
-  tone(pin, E);
+  tone(speakerpin, E);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, D);
+  tone(speakerpin, D);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, F);
+  tone(speakerpin, F);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
   
 //-are we mis-tak-en?
 
-  tone(pin, F);
+  tone(speakerpin, F);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, E);
+  tone(speakerpin, E);
   delay(eighth*1.5);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, D);
+  tone(speakerpin, D);
   delay(eighth*1.5);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, C);
+  tone(speakerpin, C);
   delay(eighth*1.5);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, D);
+  tone(speakerpin, D);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, weirdB);
+  tone(speakerpin, weirdB);
   delay(eighth*1.5);
-  noTone(pin);
+  noTone(speakerpin);
 
   delay(beat2);
 
 //But you see
 
-  tone(pin, B);
+  tone(speakerpin, B);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, B);
+  tone(speakerpin, B);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, A);
+  tone(speakerpin, A);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
 //it's not me
 
-  tone(pin, A);
+  tone(speakerpin, A);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, B);
+  tone(speakerpin, B);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, A);
+  tone(speakerpin, A);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
 //it's not my
 
-  tone(pin, A);
+  tone(speakerpin, A);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, B);
+  tone(speakerpin, B);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, C5);
+  tone(speakerpin, C5);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
 //fam-i-ly
 
-  tone(pin, A);
+  tone(speakerpin, A);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, B);
+  tone(speakerpin, B);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, C5);
+  tone(speakerpin, C5);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
 //In your head,
 
-  tone(pin, C);
+  tone(speakerpin, C);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, B);
+  tone(speakerpin, B);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, G);
+  tone(speakerpin, G);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, E);
+  tone(speakerpin, E);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
 //in your head
 
-  tone(pin, C);
+  tone(speakerpin, C);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, B);
+  tone(speakerpin, B);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, G);
+  tone(speakerpin, G);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
 //they are fighting
 
-  tone(pin, C);
+  tone(speakerpin, C);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, C);
+  tone(speakerpin, C);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, D);
+  tone(speakerpin, D);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, B);
+  tone(speakerpin, B);
   delay(beat2);
-  noTone(pin);
+  noTone(speakerpin);
 
   delay(eighth/2);
 
 //with their tanks
 
-  tone(pin, C);
+  tone(speakerpin, C);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, B);
+  tone(speakerpin, B);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, A);
+  tone(speakerpin, A);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
   delay(eighth/5);
 
 //and their bombs
 
-  tone(pin, A);
+  tone(speakerpin, A);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, B);
+  tone(speakerpin, B);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, A);
+  tone(speakerpin, A);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
   delay(eighth/5);
 
 //and their bombs
 
-  tone(pin, A);
+  tone(speakerpin, A);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, B);
+  tone(speakerpin, B);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, A);
+  tone(speakerpin, A);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
   delay(eighth/5);
 
 //and their guns
 
-  tone(pin, A);
+  tone(speakerpin, A);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, B);
+  tone(speakerpin, B);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, A);
+  tone(speakerpin, A);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
   delay(eighth/5);
 
 //In you head
 
-  tone(pin, C);
+  tone(speakerpin, C);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, B);
+  tone(speakerpin, B);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, G);
+  tone(speakerpin, G);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, E);
+  tone(speakerpin, E);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
 //in your head
 
-  tone(pin, C);
+  tone(speakerpin, C);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, B);
+  tone(speakerpin, B);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, G);
+  tone(speakerpin, G);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
 //they are crying
 
-  tone(pin, C);
+  tone(speakerpin, C);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, C);
+  tone(speakerpin, C);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, D);
+  tone(speakerpin, D);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, B);
+  tone(speakerpin, B);
   delay(beat2);
-  noTone(pin);
+  noTone(speakerpin);
 
   delay(eighth/2);
 
 //In your head
 
-  tone(pin, B);
+  tone(speakerpin, B);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, B);
+  tone(speakerpin, B);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, C);
+  tone(speakerpin, C);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
   
-  tone(pin, A);
+  tone(speakerpin, A);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, A);
+  tone(speakerpin, A);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
 //in your head
 
-  tone(pin, B);
+  tone(speakerpin, B);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, D);
+  tone(speakerpin, D);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, C);
+  tone(speakerpin, C);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, D); 
+  tone(speakerpin, D); 
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, C);
+  tone(speakerpin, C);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, A);
+  tone(speakerpin, A);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
 //zombie
 
-  tone(pin, A);
+  tone(speakerpin, A);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, B);
+  tone(speakerpin, B);
   delay(eighth);
-  noTone(pin);
+  noTone(speakerpin);
 
-  tone(pin, G);
+  tone(speakerpin, G);
   delay(eighth);
-  noTone(pin);
-}
-
-void loop() {
-  
+  noTone(speakerpin);
 }
 
 
-https://msu.edu/course/asc/232/song_project/dectalk_pages/note_to_%20ms.html
+//https://msu.edu/course/asc/232/song_project/dectalk_pages/note_to_%20ms.html
 
-https://www.musicnotes.com/sheetmusic/mtd.asp?ppn=MN0150458
+//https://www.musicnotes.com/sheetmusic/mtd.asp?ppn=MN0150458
